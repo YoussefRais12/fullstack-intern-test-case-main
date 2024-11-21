@@ -1,0 +1,20 @@
+{
+  "name": "fullstack-intern-test-case-api",
+  "version": "1.0.0",
+  "description": "Intern test case API",
+  "author": "Wooclap",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon --watch src src/server.js",
+    "seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "fullstack-intern-test-case": "file:../..",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
